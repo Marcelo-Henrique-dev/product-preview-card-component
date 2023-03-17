@@ -1,0 +1,83 @@
+.container{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.content-container{
+    max-width: 600px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    border-radius: 15px;
+}
+.img-content{
+    width: 50%;
+}
+.img-content img{
+    width: 100%;
+    height: 100%;
+}
+.content-product{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+h1{
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(212, 21%, 14%);
+}
+.title{
+    letter-spacing: 5px;
+}
+.price-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.price{
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-family: 'Fraunces', sans-serif;
+}
+.discount{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+.action{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buy{
+    width: 80%;
+    background-color: hsl(158, 36%, 37%);
+    border: 0;
+    line-height: 50px;
+    border-radius: 10px;
+    outline: 0;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.buy:hover{
+    background-color: hsl(159, 40%, 20%);
+}
+.buy img{
+    margin-right: 10px;
+}
